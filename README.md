@@ -6,4 +6,4 @@ At Sorella, the problems we tackle are focused on taking deeply academic concept
 
 As such, I think it is only fitting that the interview test takes the form of a week long, open-resource coding project in an area tangential to what we do at Sorella. Your project will be to implement a total order multicast service using a distributed algorithm in Golang.
 
-If you are unfamiliar with Golang, no worries! It is a relatively easy language to pick up and has an excellent community which makes it easy to just use Google when you get stuck. As a good primer, I recommend you complete the [online Go tutorial] (https://go.dev/tour/welcome/1), especially spending time on concurrency.
+If you are unfamiliar with Golang, no worries! It is a relatively easy language to pick up and has an excellent community which makes it easy to just use Google when you get stuck. As a good primer, I recommend you complete the [online Go tutorial](https://go.dev/tour/welcome/1), especially spending time on concurrency.
