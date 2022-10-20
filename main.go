@@ -18,7 +18,8 @@ func main() {
 		// Spawning as many worker threads as there are in the concurrency
 		// parameter of the master node
 		go func(id int){
-			wk := multicast.MakeWorker(id)
+			// Arbitrarily setting sleep parameter to 25
+			wk := multicast.MakeWorker(id, 25)
 			w := wk.MakeGUI(a)
 			w.Show()
 
