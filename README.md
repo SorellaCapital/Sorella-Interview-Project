@@ -21,12 +21,12 @@ First, the master sends a request to the workers. The workers then send a propos
 The workers will communicate with the master via RPC. I recommend looking at [Go's documentation](https://pkg.go.dev/net/rpc) for how this communication works. The outline for the worker and master files are included in the multicast folder; you will need to add to both files, as well as the RPC file and the main.go file to complete this project.
 
 ## More Resources
-⋅⋅* [Concurrency in Go Book](https://www.oreilly.com/library/view/concurrency-in-go/9781491941294/} (pdf available online)
-⋅⋅* [ISIS Algorithm Overview](https://studylib.net/doc/7830646/isis-algorithm-for-total-ordering-of-messages)
-⋅⋅* [Worker Pool Video Example](https://www.youtube.com/watch?v=1iBj5qVyfQA)
-⋅⋅* [Great Go Concurrency Tutorial Videos](https://www.youtube.com/playlist?list=PLsc-VaxfZl4do3Etp_xQ0aQBoC-x5BIgJ)
-⋅⋅* [Helpful Goroutine Code Walkthrough (MIT 6.824)](https://www.youtube.com/watch?v=gA4YXUJX7t8&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=2) (skip to coding section)
-⋅⋅* [TA Golang Concurrency Session (MIT 6.824)](https://www.youtube.com/watch?v=UzzcUS2OHqo&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=5)
+* [Concurrency in Go Book](https://www.oreilly.com/library/view/concurrency-in-go/9781491941294/) (pdf available online)
+* [ISIS Algorithm Overview](https://studylib.net/doc/7830646/isis-algorithm-for-total-ordering-of-messages)
+* [Worker Pool Video Example](https://www.youtube.com/watch?v=1iBj5qVyfQA)
+* [Great Go Concurrency Tutorial Videos](https://www.youtube.com/playlist?list=PLsc-VaxfZl4do3Etp_xQ0aQBoC-x5BIgJ)
+* [Helpful Goroutine Code Walkthrough (MIT 6.824)](https://www.youtube.com/watch?v=gA4YXUJX7t8&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=2) (skip to coding section)
+* [TA Golang Concurrency Session (MIT 6.824)](https://www.youtube.com/watch?v=UzzcUS2OHqo&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=5)
 
 ## Reach Out
 Feel free to reach out to mozart@sorellacapital.com with any questions you have!
