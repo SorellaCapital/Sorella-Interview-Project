@@ -18,7 +18,7 @@ First, the master sends a request to the workers. The workers then send a propos
 
 The workers will communicate with the master via RPC. I recommend looking at [Go's documentation](https://pkg.go.dev/net/rpc) for how this communication works. The outline for the worker and master files are included in the multicast folder; you will need to add to both files, as well as the RPC file and the main.go file to complete this project.
 
-#### Challenge
+### Challenge
 
 Implement a jitter parameter in the master, analagous to the sleep parameter in workers, to represent network delay in sending requests and agreed messages to workers.
 
