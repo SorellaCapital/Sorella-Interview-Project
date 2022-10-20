@@ -15,11 +15,14 @@ import (
 // state is represented by on the GUI;
 // GUI is the pointer to change the GUI interface itself,
 // and ID is the worker ID
-//
+// The sleep parameter is the upper bound of how many milleseconds the
+// worker should wait until the next message is sent.
+// call the sleep function with time.Sleep(time.Duration(rand.Intn(sleep)) * time.millesecond)
 type Worker struct {
 	T Tuple
 	GUI *widget.Label
 	ID int
+	Sleep int
 }
 
 type Tuple struct {
@@ -41,10 +44,11 @@ func (wk *Worker) UpdateNumber(num *widget.Label) {
 }
 
 // Returns pointer to initialization of a worker thread, called in main.go
-func MakeWorker(id int) *Worker {
+func MakeWorker(id int, sleep int) *Worker {
 	wk := Worker {
 		T: Tuple{0,0},
 		ID: id,
+		Sleep: sleep,
 	}
 
 	fmt.Printf("Worker %d spawned \n", id)
